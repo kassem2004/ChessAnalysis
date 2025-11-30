@@ -1,6 +1,5 @@
 import pandas as pd
 from sqlalchemy import create_engine
-import psycopg2
 from config import DB_USERNAME, DB_PASSWORD, DB_NAME
 
 df = pd.read_csv("data_raw/games_raw.csv")
